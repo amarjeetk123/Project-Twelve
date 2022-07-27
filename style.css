@@ -339,3 +339,11 @@ footer .footer-content{
     font-size: 15px;
     margin-top: 13px;
 }
+input:focus{  /* this is for removing border while enetr email or password*/
+outline: none;
+}
+::placeholder{
+    position: absolute;
+    margin-top: 10px ;
+    margin-left: 25px;
+}
