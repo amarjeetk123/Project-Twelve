@@ -7,7 +7,7 @@
     font-family: Montserrat;
 }
 header{
-    padding-bottom: 30px;
+    padding: 70px 0px 60px;
     width: 100%;
     height: auto;
     background-color:rgba(144, 137, 137, 0.841);
@@ -25,45 +25,47 @@ header{
     display: none;
 }
 nav{
+    background-color: #1FAA59;
     height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px 20px;
+   padding: 20px 0px;
     /* flex-wrap: wrap; */
     position: fixed;
-    top: 0;
+    top: 0%;
     z-index: 1;
     
 }
 .nav{
-    background-color: #1FAA59;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 .list{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: -20px;
-    margin-left: -100px;
-    
+    justify-content: space-around;   
 }
 .list-items{
     color: #ffff;
     margin: 0px 20px;
-    padding: 15px;
+    padding: 5px 10px;
     font-size: 25px;
-  
 }
 .list-items:hover{
     cursor: pointer;
     border: 2px solid #ffffff;
-    border-radius: 15px;
-}
-.logo{
-   margin-left: 60px;
+    border-radius: 10px;
+    transition: 0.6s;
 }
 .lower{
+    padding-top: 20px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
@@ -83,7 +85,7 @@ nav a{
 .btn:hover{
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    
    border: none;
    border-radius: 20px;
    box-shadow: 1px 1px 1px 3px #000000 , -1px -1px 1px 3px #000000;
@@ -465,11 +467,11 @@ outline: none;
         padding: 0px 10px;
     }
     .button-a{
-        margin-top: -30px;
+       
         margin-left: 20px;
     }
     .logo{
-        margin-top: -30px;
+      
     }
 }
 @media screen and (max-width:1230px) {
@@ -481,7 +483,7 @@ outline: none;
         height: 100vh;
         background-color: rgb(95, 137, 123);
         position: absolute;
-        top: 100px;
+        top: 90%;
         display: inline-block;
         left: -107%;
         padding-top: 20px;
@@ -500,11 +502,13 @@ outline: none;
         
     }
     .three-line{
+        position: absolute;
         display: block;
-        margin-right: 30px;
+       top: 50%;
+       right: 3%;
     }
     #check:checked ~ .list{
-        left: -6.5%;
+        left: -5%;
         transition: 0.4s;
     }
     #check:checked , .box{
