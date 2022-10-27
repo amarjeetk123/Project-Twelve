@@ -485,18 +485,19 @@ outline: none;
         position: absolute;
         top: 90%;
         display: inline-block;
-        left: -107%;
+        left: -100%;
         padding-top: 20px;
+        margin: 0px;
     }
     .list-items{
         width: 50%;
-        font-size: 50px;
+        font-size: 60px;
         margin: 10px auto 40px;
         font-weight: bold;
     }
     .list-items:hover{
         background-color: transparent;
-        color: #1FAA59;
+        color: #0f763a;
         border: none;
         transition: 0.4s;
         
@@ -508,7 +509,7 @@ outline: none;
        right: 3%;
     }
     #check:checked ~ .list{
-        left: -5%;
+        left: 0%;
         transition: 0.4s;
     }
     #check:checked , .box{
